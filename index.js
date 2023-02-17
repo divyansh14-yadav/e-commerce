@@ -22,10 +22,10 @@ index.use(express.urlencoded({extended:true}));
 mongoose.set('strictQuery',true);
 
 // routes
-index.use("/",orderRouter)
-index.use("/",cartRouter)
-index.use("/",authrouter)
-index.use("/",productRouter)
+index.use("/api/v1",orderRouter)
+index.use("/api/v1",cartRouter)
+index.use("/api/v1",authrouter)
+index.use("/api/v1",productRouter)
 
 index.use('/image', express.static('images'));
 
