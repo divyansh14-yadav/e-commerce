@@ -11,5 +11,8 @@
        "src": "/(.*)",
        "dest": "/"
    }
-  ]
+  ],
+  "env": {
+    "MONGO_DB": "mongodb+srv://udemyp:udemyp@cluster0.oq7mcqk.mongodb.net/udemyp?retryWrites=true&w=majority"
+  }
 }
